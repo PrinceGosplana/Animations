@@ -20,6 +20,7 @@ struct ButtonView: View {
         .foregroundColor(.white)
         .clipShape(.circle)
         .scaleEffect(animationAmount)
+        .animation(.default, value: animationAmount)
     }
 }
 
