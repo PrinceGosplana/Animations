@@ -23,7 +23,7 @@ struct ExplicitAnimationView: View {
         .clipShape(.circle)
         .rotation3DEffect(
             .degrees(animationAmount),
-            axis: (x: 0.0, y: 1.0, z: 0.0)
+            axis: (x: 0.0, y: 1.0, z: 1.0)
         )
     }
 }
