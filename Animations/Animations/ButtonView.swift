@@ -20,7 +20,10 @@ struct ButtonView: View {
         .foregroundColor(.white)
         .clipShape(.circle)
         .scaleEffect(animationAmount)
-        .animation(.default, value: animationAmount)
+        .animation(.easeInOut(duration: 2)
+            .repeatCount(3, autoreverses: true),
+                   value: animationAmount
+        )
     }
 }
 
