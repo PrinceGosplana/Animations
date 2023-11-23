@@ -13,6 +13,7 @@
 		959B2B322B0C63EB002FA61D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959B2B312B0C63EB002FA61D /* Preview Assets.xcassets */; };
 		959B2B392B0C644C002FA61D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2B382B0C644C002FA61D /* ButtonView.swift */; };
 		959B2B572B0F099F002FA61D /* AnimatingBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2B562B0F099F002FA61D /* AnimatingBindingView.swift */; };
+		959B2B592B0F0B72002FA61D /* ExplicitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2B582B0F0B72002FA61D /* ExplicitAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		959B2B312B0C63EB002FA61D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		959B2B382B0C644C002FA61D /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		959B2B562B0F099F002FA61D /* AnimatingBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindingView.swift; sourceTree = "<group>"; };
+		959B2B582B0F0B72002FA61D /* ExplicitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				959B2B2C2B0C63E7002FA61D /* ContentView.swift */,
 				959B2B382B0C644C002FA61D /* ButtonView.swift */,
 				959B2B562B0F099F002FA61D /* AnimatingBindingView.swift */,
+				959B2B582B0F0B72002FA61D /* ExplicitAnimationView.swift */,
 				959B2B2E2B0C63EB002FA61D /* Assets.xcassets */,
 				959B2B302B0C63EB002FA61D /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				959B2B2D2B0C63E7002FA61D /* ContentView.swift in Sources */,
 				959B2B2B2B0C63E7002FA61D /* AnimationsApp.swift in Sources */,
+				959B2B592B0F0B72002FA61D /* ExplicitAnimationView.swift in Sources */,
 				959B2B392B0C644C002FA61D /* ButtonView.swift in Sources */,
 				959B2B572B0F099F002FA61D /* AnimatingBindingView.swift in Sources */,
 			);
