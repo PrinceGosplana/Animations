@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ExplicitAnimationView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Tap me") {
+            
+        }
+        .padding(50)
+        .background(.red)
+        .foregroundColor(.white)
+        .clipShape(.circle)
     }
 }
 
