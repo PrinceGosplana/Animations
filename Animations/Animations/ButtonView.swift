@@ -19,11 +19,20 @@ struct ButtonView: View {
         .background(.red.gradient)
         .foregroundColor(.white)
         .clipShape(.circle)
-        .scaleEffect(animationAmount)
-        .animation(.easeInOut(duration: 2)
-            .repeatCount(3, autoreverses: true),
-                   value: animationAmount
+//        .scaleEffect(animationAmount)
+        .overlay(
+        Circle()
+            .stroke(.red)
+            .scaleEffect(animationAmount)
+            .opacity(2 - animationAmount)
+            .animation(.easeInOut(duration: 1)
+                .repeatForever(autoreverses: false),
+                       value: animationAmount
+            )
         )
+        .onAppear{
+            animationAmount = 2
+        }
     }
 }
 
