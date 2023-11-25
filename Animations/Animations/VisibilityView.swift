@@ -13,7 +13,9 @@ struct VisibilityView: View {
     var body: some View {
         VStack {
             Button("Tap me") {
-                isShowingRed.toggle()
+                withAnimation {
+                    isShowingRed.toggle()
+                }
             }
             
             if isShowingRed {
