@@ -16,6 +16,7 @@
 		959B2B592B0F0B72002FA61D /* ExplicitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2B582B0F0B72002FA61D /* ExplicitAnimationView.swift */; };
 		959B2B5B2B0F1253002FA61D /* AnimationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2B5A2B0F1253002FA61D /* AnimationStackView.swift */; };
 		959B2B5D2B11BB73002FA61D /* AnimatingGesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2B5C2B11BB73002FA61D /* AnimatingGesturesView.swift */; };
+		959B2B5F2B1207C7002FA61D /* LettersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2B5E2B1207C7002FA61D /* LettersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		959B2B582B0F0B72002FA61D /* ExplicitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimationView.swift; sourceTree = "<group>"; };
 		959B2B5A2B0F1253002FA61D /* AnimationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStackView.swift; sourceTree = "<group>"; };
 		959B2B5C2B11BB73002FA61D /* AnimatingGesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGesturesView.swift; sourceTree = "<group>"; };
+		959B2B5E2B1207C7002FA61D /* LettersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				959B2B562B0F099F002FA61D /* AnimatingBindingView.swift */,
 				959B2B582B0F0B72002FA61D /* ExplicitAnimationView.swift */,
 				959B2B5A2B0F1253002FA61D /* AnimationStackView.swift */,
+				959B2B5E2B1207C7002FA61D /* LettersView.swift */,
 				959B2B2E2B0C63EB002FA61D /* Assets.xcassets */,
 				959B2B302B0C63EB002FA61D /* Preview Content */,
 			);
@@ -154,6 +157,7 @@
 			files = (
 				959B2B5B2B0F1253002FA61D /* AnimationStackView.swift in Sources */,
 				959B2B2D2B0C63E7002FA61D /* ContentView.swift in Sources */,
+				959B2B5F2B1207C7002FA61D /* LettersView.swift in Sources */,
 				959B2B2B2B0C63E7002FA61D /* AnimationsApp.swift in Sources */,
 				959B2B592B0F0B72002FA61D /* ExplicitAnimationView.swift in Sources */,
 				959B2B5D2B11BB73002FA61D /* AnimatingGesturesView.swift in Sources */,
