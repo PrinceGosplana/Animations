@@ -18,9 +18,13 @@ struct AnimatingGesturesView: View {
             .gesture(
                 DragGesture()
                     .onChanged { dragAmount = $0.translation }
-                    .onEnded { _ in dragAmount = .zero}
+                    .onEnded { _ in
+                        withAnimation(.bouncy) {
+                            dragAmount = .zero
+                        }
+                    }
             )
-            .animation(.bouncy, value: dragAmount)
+//            .animation(.bouncy, value: dragAmount)
     }
 }
 
