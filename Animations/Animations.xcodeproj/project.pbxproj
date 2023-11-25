@@ -15,6 +15,7 @@
 		959B2B572B0F099F002FA61D /* AnimatingBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2B562B0F099F002FA61D /* AnimatingBindingView.swift */; };
 		959B2B592B0F0B72002FA61D /* ExplicitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2B582B0F0B72002FA61D /* ExplicitAnimationView.swift */; };
 		959B2B5B2B0F1253002FA61D /* AnimationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2B5A2B0F1253002FA61D /* AnimationStackView.swift */; };
+		959B2B5D2B11BB73002FA61D /* AnimatingGesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2B5C2B11BB73002FA61D /* AnimatingGesturesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		959B2B562B0F099F002FA61D /* AnimatingBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindingView.swift; sourceTree = "<group>"; };
 		959B2B582B0F0B72002FA61D /* ExplicitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimationView.swift; sourceTree = "<group>"; };
 		959B2B5A2B0F1253002FA61D /* AnimationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStackView.swift; sourceTree = "<group>"; };
+		959B2B5C2B11BB73002FA61D /* AnimatingGesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGesturesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				959B2B2A2B0C63E7002FA61D /* AnimationsApp.swift */,
 				959B2B2C2B0C63E7002FA61D /* ContentView.swift */,
+				959B2B5C2B11BB73002FA61D /* AnimatingGesturesView.swift */,
 				959B2B382B0C644C002FA61D /* ButtonView.swift */,
 				959B2B562B0F099F002FA61D /* AnimatingBindingView.swift */,
 				959B2B582B0F0B72002FA61D /* ExplicitAnimationView.swift */,
@@ -153,6 +156,7 @@
 				959B2B2D2B0C63E7002FA61D /* ContentView.swift in Sources */,
 				959B2B2B2B0C63E7002FA61D /* AnimationsApp.swift in Sources */,
 				959B2B592B0F0B72002FA61D /* ExplicitAnimationView.swift in Sources */,
+				959B2B5D2B11BB73002FA61D /* AnimatingGesturesView.swift in Sources */,
 				959B2B392B0C644C002FA61D /* ButtonView.swift in Sources */,
 				959B2B572B0F099F002FA61D /* AnimatingBindingView.swift in Sources */,
 			);
